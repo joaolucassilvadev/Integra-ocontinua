@@ -23,3 +23,8 @@ FERRAMENTAS POPULARES:
 -azure devops
 -google cloud build
 -gitlab pipelines/ci
+
+
+O QUE É O GITHUB ACTIONS: 
+
+Bom o github actions é um automarizador de workflow de desenvolvimento de software. Ele utiliza os principais eventos gerados pelo github para que possamos executar tarefas dos mais variados tipos, incluindo processos de CI.
