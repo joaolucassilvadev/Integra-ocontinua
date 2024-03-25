@@ -16,7 +16,7 @@ jobs:
       - name: Setup do ambiente Go
         uses: actions/setup-go@v2 # Aqui nós baixamos o ambiente Golang
         with:
-          go-version: 1.17.1
+          go-version: 1.22.1
 
       - name: Executar testes
         run: go test
