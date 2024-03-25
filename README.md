@@ -28,3 +28,11 @@ FERRAMENTAS POPULARES:
 O QUE É O GITHUB ACTIONS: 
 
 Bom o github actions é um automarizador de workflow de desenvolvimento de software. Ele utiliza os principais eventos gerados pelo github para que possamos executar tarefas dos mais variados tipos, incluindo processos de CI.
+
+DINAMICA DO GITHUB ACTIONS: 
+O fluxo começa apartir de um workflow. O que seria um workfow?
+bom um workflow é um conjunto de processos definidos por você. um exemplo seria fazer o build + rodar testes da aplicação 
+algo interessante é que podemos ter mais de um workflow por repositorio
+os wrokflows são definidos por arquivos .yml em github/workslows
+ele pode possuir um ou mais jobs 
+podemos configurar quando esse workflow é utilizado podemos botar para rodar por base em agendamento, por exemplo todos os dias a meia noite ele roda ou rodar sempre que fizerem um pull request
