@@ -35,4 +35,12 @@ bom um workflow é um conjunto de processos definidos por você. um exemplo seri
 algo interessante é que podemos ter mais de um workflow por repositorio
 os wrokflows são definidos por arquivos .yml em github/workslows
 ele pode possuir um ou mais jobs 
-podemos configurar quando esse workflow é utilizado podemos botar para rodar por base em agendamento, por exemplo todos os dias a meia noite ele roda ou rodar sempre que fizerem um pull request
+podemos configurar quando esse workflow é utilizado podemos botar para rodar por base em agendamento, por exemplo todos os dias a meia noite ele roda ou rodar sempre que fizerem um pull request ou um push
+
+Outros passos da dinamica:
+
+Evento: aqui configuramos qual evento vai ativar o workflow no caso podemos utilizar o push
+Filtros: branche
+Ambiente: qual sistema queremos usar no caso usamos o ambiente ubuntu
+ações: 
+
