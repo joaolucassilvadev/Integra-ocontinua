@@ -44,3 +44,8 @@ Filtros: branche
 Ambiente: qual sistema queremos usar no caso usamos o ambiente ubuntu
 ações: 
 
+ACTIONS: 
+é a acção que de fato será executada em um dos steps de um job em um workflow  
+podemos fazer ela do zero ou utilizar uma imagem do docker
+tem no marketplace do github já prontas
+
