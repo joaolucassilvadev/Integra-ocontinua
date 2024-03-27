@@ -1,10 +1,11 @@
 name: ci-golang-workflow
 
 # Aqui estamos especificando que sempre que fizermos um push o workflow vai rodar.
-on:  #bom aqui eu estou configurando para sempre que eu rodar este arquivo ele vai fazer um pull_request na branch develop
-   pull_request:
-     branches:
-       - develop
+on:
+  # Bom aqui eu estou configurando para sempre que eu rodar este arquivo ele vai fazer um pull_request na branch develop
+  push:
+    branches:
+      - develop
 
 jobs:
   check-application:
